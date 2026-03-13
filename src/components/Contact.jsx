@@ -13,7 +13,7 @@ const channels = [
     {
         label: "LinkedIn",
         value: "Muskan Wagh",
-        href: "https://linkedin.com",
+        href: "https://www.linkedin.com/in/muskan-wagh-22b2b5325",
         icon: <FaLinkedin size={18} />,
     },
     {

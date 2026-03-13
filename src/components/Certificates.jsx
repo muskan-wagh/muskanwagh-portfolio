@@ -1,10 +1,10 @@
 import React from "react";
 import { motion } from "framer-motion";
-import certMyCaptain    from "../assets/cert-mycaptain.webp";
-import certPregrad      from "../assets/cert-pregrad.webp";
-import certSIH          from "../assets/cert-sih.webp";
+import certMyCaptain from "../assets/cert-mycaptain.webp";
+import certPregrad from "../assets/cert-pregrad.webp";
+import certSIH from "../assets/cert-sih.webp";
 import certCodingBlocks from "../assets/cert-codingblocks.webp";
-import certGDGFounding  from "../assets/cert-gdg-founding.webp";
+import certGDGFounding from "../assets/cert-gdg-founding.webp";
 
 const certificates = [
     {
@@ -63,9 +63,7 @@ const Certificates = () => {
                             across communities.
                         </h2>
                     </div>
-                    <p className="text-sm leading-relaxed max-w-xs">
-                        Industry-recognised certifications validating my expertise and growth.
-                    </p>
+
                 </motion.div>
 
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">

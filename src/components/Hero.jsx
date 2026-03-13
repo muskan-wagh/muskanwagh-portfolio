@@ -39,14 +39,13 @@ const Hero = () => {
                     className="mt-10 md:mt-14 grid md:grid-cols-[1.1fr_0.9fr] gap-10 md:gap-14"
                 >
                     <p className="text-lg md:text-2xl leading-relaxed md:pr-10" style={{ fontFamily: 'var(--font-serif)' }}>
-                        Software engineer focused on meaningful products, clean interaction, and durable code.
-                        I build full-stack experiences with React, Next.js, Node.js, and thoughtful design systems.
+                        Software Engineer who builds full-stack web applications using React, Next.js, and Node.js, with a focus on clean design and reliable code.
                     </p>
 
                     <div className="paper-block p-6 md:p-7 flex flex-col gap-6">
                         <p className="meta-line">Software Engineer / Full Stack Developer / Indore, India</p>
                         <p className="text-sm leading-relaxed">
-                            Available for internships, freelance collaborations, and product engineering roles.
+                            Available for internships and product engineering roles.
                         </p>
                         <div className="flex flex-wrap items-center gap-3">
                             <a href="#projects" className="btn-primary">
@@ -57,27 +56,27 @@ const Hero = () => {
                     </div>
                 </motion.div>
 
-            <motion.div
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                transition={{ delay: 0.7, duration: 0.7 }}
-                className="mt-14 md:mt-20 pt-6 border-t border-[var(--line)] flex flex-col md:flex-row md:items-center md:justify-between gap-4"
-            >
-                <div className="meta-line flex items-center gap-5">
-                    <span>Based in India</span>
-                    <span>Open to Opportunities</span>
-                </div>
-                <div className="meta-line">Scroll and explore selected work</div>
-            </motion.div>
+                <motion.div
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
+                    transition={{ delay: 0.7, duration: 0.7 }}
+                    className="mt-14 md:mt-20 pt-6 border-t border-[var(--line)] flex flex-col md:flex-row md:items-center md:justify-between gap-4"
+                >
+                    <div className="meta-line flex items-center gap-5">
+                        <span>Based in India</span>
+                        <span>Open to Opportunities</span>
+                    </div>
+                    <div className="meta-line">Scroll and explore selected work</div>
+                </motion.div>
 
-            <motion.p
-                initial={{ opacity: 0, y: 10 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 0.95, duration: 0.65 }}
-                className="pull-quote mt-16 text-2xl md:text-4xl max-w-3xl"
-            >
-                "Build with patience. Refine with intent. Ship with clarity."
-            </motion.p>
+                <motion.p
+                    initial={{ opacity: 0, y: 10 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ delay: 0.95, duration: 0.65 }}
+                    className="pull-quote mt-16 text-2xl md:text-4xl max-w-3xl"
+                >
+                    "Build with patience. Refine with intent. Ship with clarity."
+                </motion.p>
             </div>
         </section>
     );

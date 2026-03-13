@@ -7,7 +7,7 @@ const bullets = [
     "Actively involved in Technical Communities",
 ];
 
-const tags = ["Architecture", "Real-world Labs", "Community Lead", "MERN Stack"];
+const tags = ["Community Lead", "MERN Stack"];
 
 const Education = () => {
     return (
@@ -75,9 +75,7 @@ const Education = () => {
                             Focus &amp; Specialisation
                         </h4>
                         <p className="text-base md:text-lg leading-relaxed" style={{ color: "var(--text-secondary)" }}>
-                            My academic journey bridges theoretical foundations with practical, industry-standard engineering.
-                            I focus on building scalable systems while maintaining clean, maintainable codebases — always with
-                            real-world deployment in mind.
+                            I enjoy building scalable applications and writing clean, maintainable code. I focus on creating software that works well in real-world situations.
                         </p>
 
                         <div className="flex flex-wrap gap-2 pt-2">
