@@ -33,10 +33,11 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`fixed w-full z-50 transition-all duration-300 ${scrolled
+      className={`fixed w-full z-50 transition-all duration-300 ${
+        scrolled
           ? "bg-[var(--bg-primary)]/90 backdrop-blur-md border-b border-[var(--line)]"
           : "bg-transparent"
-        }`}
+      }`}
     >
       <div className="max-w-6xl mx-auto px-6 md:px-10 h-[68px] flex items-center justify-between">
         <a
@@ -69,7 +70,7 @@ const Navbar = () => {
 
         <div className="hidden md:flex items-center gap-4">
           <a
-            href="https://github.com/Maahi-0"
+            href="https://github.com/Muskan-wagh"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="GitHub"
@@ -145,7 +146,7 @@ const Navbar = () => {
                 style={{ borderTop: "1px solid var(--line)" }}
               >
                 <a
-                  href="https://github.com/Maahi-0"
+                  href="https://github.com/Muskan-wagh"
                   target="_blank"
                   rel="noopener noreferrer"
                   style={{ color: "var(--text-secondary)" }}
