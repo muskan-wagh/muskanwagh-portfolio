@@ -18,7 +18,7 @@ const channels = [
   },
   {
     label: "GitHub",
-    value: "Maahi-0",
+    value: "Muskan-wagh",
     href: "https://github.com/Muskan-wagh",
     icon: <FaGithub size={18} />,
   },
