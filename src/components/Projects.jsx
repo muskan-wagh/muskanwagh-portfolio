@@ -2,6 +2,8 @@ import React from "react";
 import { motion } from "framer-motion";
 import { FaGithub, FaArrowUpRightFromSquare } from "react-icons/fa6";
 import CampusConnectImg from "../assets/campus-connect.webp";
+// import EstateImg from "../assets/Estate.webp";
+
 
 const projects = [
     {
@@ -9,34 +11,43 @@ const projects = [
         title: "Campus Connect",
         description: "A centralized platform for student discovery of clubs and events, built with Next.js.",
         tech: ["Next.js", "Tailwind", "Framer Motion"],
-        github: "https://github.com/Maahi-0/Campus-Connect",
+        github: "https://github.com/Muskan-wagh/Campus-Connect",
         image: CampusConnectImg,
         featured: true,
     },
     {
         num: "02",
+        title: "Estate",
+        description: "A real estate platform for buying, selling, and renting properties.",
+        tech: ["Next.js", "Tailwind", "Framer Motion"],
+        github: "https://github.com/Muskan-wagh/Estate-app.git",
+        image: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&q=80&w=800",
+        featured: true,
+    },
+    {
+        num: "03",
         title: "Full-Stack Journey",
         description: "Mastering Next.js through building real-world applications and optimizing performance.",
         tech: ["Next.js", "React", "Server Components"],
-        github: "https://github.com/Maahi-0/NEXt.js---full-stack",
+        github: "https://github.com/Muskan-wagh/NEXt.js---full-stack",
         image: "https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&q=80&w=800",
         featured: false,
     },
     {
-        num: "03",
+        num: "04",
         title: "Learning React",
         description: "A comprehensive collection of React experiments and advanced component patterns.",
         tech: ["React.js", "Vite", "Design Systems"],
-        github: "https://github.com/Maahi-0/Learning-React",
+        github: "https://github.com/Muskan-wagh/Learning-React",
         image: "https://images.unsplash.com/photo-1633356122544-f134324a6cee?auto=format&fit=crop&q=80&w=800",
         featured: false,
     },
     {
-        num: "04",
+        num: "05",
         title: "Node.js Core",
         description: "Exploring backend architecture, REST APIs, and scalable server-side systems.",
         tech: ["Node.js", "Express", "API Design"],
-        github: "https://github.com/Maahi-0/Node-js",
+        github: "https://github.com/Muskan-wagh/Node-js",
         image: "https://images.unsplash.com/photo-1627398242454-45a1465c2479?auto=format&fit=crop&q=80&w=800",
         featured: false,
     },
