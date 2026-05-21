@@ -172,6 +172,27 @@
 .paper-block {
   background: var(--paper);
   border: 1px solid var(--card-border);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+/* Ensure consistent card heights in grid */
+#projects .grid-cols-1 {
+  min-height: 1px; /* Reset any inherited height constraints */
+}
+
+#projects .grid-cols-2 > .paper-block {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+/* For featured cards that span 2 columns */
+#projects .md\\:col-span-2 > .paper-block {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 .pull-quote {
