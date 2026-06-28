@@ -2,7 +2,9 @@ import React from "react";
 import { motion } from "framer-motion";
 import { FaGithub, FaArrowUpRightFromSquare } from "react-icons/fa6";
 import CampusConnectImg from "../assets/campus-connect.webp";
-import apiTest from "../assets/api-test.png";
+import apitest from "../assets/apitest.png";
+import estate from "../assets/estate.png";
+import devcollabe from "../assets/devcollab.png";
 
 const projects = [
   {
@@ -24,8 +26,7 @@ const projects = [
     tech: ["Next.js", "Tailwind", "Framer Motion"],
     github: "https://github.com/Muskan-wagh/Estate-app.git",
     demo: "https://estate-app-drab.vercel.app/",
-    image:
-      "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&q=80&w=800",
+    image: estate,
     featured: true,
   },
   {
@@ -45,8 +46,7 @@ const projects = [
     ],
     github: "https://github.com/Muskan-wagh/DEV_collab.git",
     demo: "https://devcollab-nu.vercel.app/",
-    image:
-      "https://images.unsplash.com/photo-1627398242454-45a1465c2479?auto=format&fit=crop&q=80&w=800",
+    image: devcollabe,
     featured: false,
   },
   {
@@ -65,7 +65,7 @@ const projects = [
     ],
     github: "https://github.com/Muskan-wagh/API-Tester-webapp.git",
     demo: "https://api-tester-webapp.vercel.app/",
-    image: apiTest,
+    image: apitest,
     featured: true,
   },
 ];

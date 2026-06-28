@@ -6,8 +6,19 @@ import certSIH from "../assets/cert-sih.webp";
 import certCodingBlocks from "../assets/cert-codingblocks.webp";
 import certGDGFounding from "../assets/cert-gdg-founding.webp";
 import certproject from "../assets/cer-project.jpeg";
-
+import certproduct from "../assets/cert-product.png";
+import cicdCertificate from "../assets/cert-CiCd.png";
+import webdevCertificate from "../assets/cert-webDev.png";
 const certificates = [
+  {
+    title: "Web Development Certificate",
+    issuer: "Certificate Issuer Name",
+    year: "2025",
+    image: webdevCertificate,
+    description:
+      "Successfully completed a Web Development certification covering responsive frontend development, backend fundamentals, and modern web technologies for building full-stack applications.",
+  },
+
   {
     title: "Founding Team Member",
     issuer: "GDG on Campus SUI Indore",
@@ -33,6 +44,14 @@ const certificates = [
       "Successfully completed the Campus Ambassador programme in Marketing.",
   },
   {
+    title: "CI/CD Certificate",
+    issuer: "Certificate Issuer Name",
+    year: "2025",
+    image: cicdCertificate,
+    description:
+      "Successfully completed a CI/CD certification, gaining hands-on experience in automating software build, testing, and deployment pipelines using modern DevOps practices.",
+  },
+  {
     title: "Smart India Hackathon",
     issuer: "SAGE University Indore",
     year: "2025",
@@ -55,6 +74,14 @@ const certificates = [
     image: certPregrad,
     description:
       "Completed the Campus Ambassador Intern programme focused on student career acceleration.",
+  },
+  {
+    title: "Product Management Certificate",
+    issuer: "Certificate Issuer Name",
+    year: "2025",
+    image: certproduct,
+    description:
+      "Completed a Product Management certification focused on product strategy, user research, roadmap planning, agile methodologies, and delivering customer-centric digital products.",
   },
 ];
 
