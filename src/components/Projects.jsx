@@ -14,7 +14,7 @@ const projects = [
       "A centralized platform for student discovery of clubs and events, built with Next.js.",
     tech: ["Next.js", "Tailwind", "Framer Motion"],
     github: "https://github.com/Muskan-wagh/Campus-Connect",
-    demo: "https://campus-connect-seven-beta.vercel.app/",
+    demo: "https://campus-connect-xi-umber.vercel.app/",
     image: CampusConnectImg,
     featured: true,
   },
